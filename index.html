@@ -1,88 +1,12 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ex 1</title>
-    <style>
-        body{
-            background-color:rgb(190, 133, 40);
-        }
-        div#retangulo{
-            position: relative;
-            width: 400px;
-            height: 300px;
-            margin: 20px 0;
-            border-radius: 50% / 10%;
-            color: black;
-            text-align: center;
-            text-indent: .1em;
-            background: white;
-            position: absolute;
-            left: 50%;
-            margin-left: -200px;
-            margin-top: 40px;
-            font-family: 'Times New Roman', Times, serif;
-            font-size: 20pt;
-        }
-        h1{
-            color: whitesmoke;
-            text-align: center;
-        }
-        img{
-            width: 200px;
-            height: 200px;
-            border-radius: 50%;
-            position: absolute;
-            left: 50%;
-            margin-left: -100px;
-            margin-top: 100px;
-        }        
-    </style>
+    <title>Document</title>
 </head>
-<body id="corpo">
-    <h1> <strong>Hora do Dia...</strong></h1>
-    
-    <div id="retangulo">
-        
-    </div>
-
-    <img src="dia.jpg" alt="dia" id="imagem">
-    
-
-    <script>
-        var ret = document.getElementById('retangulo');
-        var corpo = document.getElementById('corpo');
-        var imagem = document.getElementById('imagem');
-        var data = new Date();
-        var hora = data.getHours();
-
-        addEventListener(data.getMinutes() == '00', mudar(hora, ret));
-        
-        function mudar(hour, divi){
-            if(hour >= 7 && hour < 12){
-                corpo.style.background = 'aquamarine';
-                ret.style.textAlign = 'center'
-                ret.innerHTML = ' <strong> São '+ hour + ' horas <strong>';
-                imagem.src = 'dia.jpg';
-            }
-            if(hour >= 12 && hour < 18){
-                corpo.style.background = 'rgb(190, 133, 40)';
-                ret.style.textAlign = 'center'
-                ret.innerHTML = '<strong> São '+ hour + ' horas <strong>';      
-                imagem.src = 'tarde.jpeg';
-            }  
-            if(hour >= 18 && hour < 24){
-                corpo.style.background = 'grey'; 
-                ret.style.textAlign = 'center'
-                ret.innerHTML = '<strong> São '+ hour + ' horas <strong>';    
-                imagem.src = 'noite.jpeg' 
-            } 
-        }
-         
-
-    </script>
-    
+<body>
+    <h1>ojdf0-dsahnf</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit id distinctio pariatur, suscipit accusamus facilis, dolorem ad voluptates sint ea odio provident ex adipisci sapiente reiciendis quia iure in architecto!</p>
 </body>
 </html>
